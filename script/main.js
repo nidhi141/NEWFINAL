@@ -304,6 +304,8 @@ const animationTimeline = () => {
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
     tl.restart();
+    var audio = new Audio('hbd2.mp3');
+      audio.play();
   });
 
    // Next Animation on click
